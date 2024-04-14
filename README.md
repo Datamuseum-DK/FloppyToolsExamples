@@ -3,6 +3,8 @@
 This repo contains some example files for "FloppyTools", to show
 how one can salvage individual read errors by hand.
 
+https://github.com/Datamuseum-DK/FloppyTools
+
 You need a big terminal for this example: 140 char by 88 lines
 
 First run:
@@ -69,7 +71,7 @@ Now we have a complete image, which you can verify by:
 And if you're wondering what the heck what is going on with
 that floppy:
 
-    https://datamuseum.dk/wiki/Q1_Microlite
+https://datamuseum.dk/wiki/Q1_Microlite
 
 (If you dont read danish, follow one of the links near the bottom)
 
