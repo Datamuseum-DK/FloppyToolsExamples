@@ -9,7 +9,7 @@ You need a big terminal for this example: 140 char by 88 lines
 
 First run:
 
-    python3 -m floppytools -d q1
+    python3 -u -m floppytools -F Q1 -d q1
 
 This processes the 35 "readings" of the Q1 floppy disk we use for
 the example, enjoy the Unicode graphics :-)
@@ -23,9 +23,18 @@ The main Unicode graphic is the cylinders (vertical) and sectors
 
 '╬' means "Conflicting values read"
 
+'ü' (Q1 only) means "conflicting but unallocated".
+
 "░" also indicates conflicts, but one of the values have twice as many readings as the rest combined.
 
 One of '▁▂▃▄▅▆▇█' indicates how many times times that particular sector has a good read.
+
+
+# Old outdated info
+
+This section needs to be reworked to follow changes that has
+happened in FloppyTools. 20250728/phk
+
 
 By the time the script stops, the last output will be:
 
@@ -76,6 +85,3 @@ https://datamuseum.dk/wiki/Q1_Microlite
 (If you dont read danish, follow one of the links near the bottom)
 
 /phk
-
-
-
